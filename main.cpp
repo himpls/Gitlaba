@@ -1,9 +1,23 @@
 #include <iostream>
+#include <fstream>
+#include <string>
 
 using namespace std;
 
-int main()
-{
-    cout << "Hello world!" << endl;
-    return 0;
+void f_1(){
+
+}
+
+void f_2(){
+
+}
+
+void f_3(){
+
+}
+
+int main(){
+f_1();
+f_2();
+f_3();
 }
