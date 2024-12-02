@@ -14,7 +14,7 @@ for(size_t i = 0; i < readvector.size(); ++i){
     cout << readvector[i] << endl;
       }
   }
-void f_3(){
+void f_3(vector<string>& readvector){
 ofstream out;
 out.open("write.txt");
   if (out.is_open())
