@@ -13,7 +13,7 @@ while(getline(readfile,line)){
 }
 readfile.close();
 }
- //commit after synchronization
+ //commit after synchronization.
 
 
 void f_2(vector<string>& readvector){
