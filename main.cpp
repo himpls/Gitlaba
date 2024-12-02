@@ -6,7 +6,6 @@
 using namespace std;
 void f_1(vector<string>& readvector){
 ifstream readfile("read.txt");
-vector <string> readvector;
 string line;
 while(getline(readfile,line)){
         readvector.push_back(line);
