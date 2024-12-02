@@ -14,6 +14,7 @@ while(getline(readfile,line)){
 }
 readfile.close();
 }
+ //commit after synchronization
 
 void f_2(){
 
