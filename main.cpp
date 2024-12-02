@@ -4,8 +4,9 @@
 #include <vector>
 
 using namespace std;
-void f_1(vector<string>& readvector){
+void f_1(){
 ifstream readfile("read.txt");
+vector <string> readvector;
 string line;
 while(getline(readfile,line)){
         readvector.push_back(line);
@@ -15,6 +16,9 @@ readfile.close();
 }
  //commit after synchronization
 
+void f_2(){
+
+}
 
 void f_2(vector<string>& readvector){
 for(size_t i = 0; i < readvector.size(); ++i){
@@ -28,7 +32,6 @@ out.open("write.txt");
   {
       for(size_t i = 0; i < readvector.size(); i++){
                 out << readvector[i] << endl;
-                //cout<<readvector[i] << endl;(Проверка на запись в отдельный файл)
       }
   }
   out.close();
